@@ -1,0 +1,23 @@
+geometry_input:
+  file_path: C:\Users\wassim.lelann\Documents\My GitHub\landcoverstats\input data\geometry_input_ne_10m_admin_0_CLC_countries.gpkg
+  buffer_radius_meters: 1000
+
+crs_handling:
+  use_shapefile_crs: false
+  use_raster_crs: true
+  use_custom_crs: false
+  custom_crs: "ESRI:54009"
+  use_local_utm: false
+  world_utm_grid:
+    file_path: C:\Users\wassim.lelann\Documents\My GitHub\landcoverstats\input data\UTM_ZONES.gpkg
+    crs_field: CODE_EPSG_UTM
+
+raster_input:
+  year: 2018
+  file_path: C:\Users\wassim.lelann\Documents\My GitHub\landcoverstats\input data\Corine Land Cover 2018\U2018_CLC2018_V2020_20u1.tif
+  qml_path: C:\Users\wassim.lelann\Documents\My GitHub\landcoverstats\input data\Corine Land Cover 2018\clc_legend_qgis_raster.qml
+#  land_cover_class_dict:
+#    1: "Forest"
+#    2: "Cropland"
+#    3: "Grassland"
+#    4: "Urban"
